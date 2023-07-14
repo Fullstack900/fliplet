@@ -6,8 +6,8 @@ const router = express.Router();
 
 app.use(createRateLimitMiddleware("global", 2, 2));
 
-// require("./js-orm");
-// require("./functional-programming");
+require("./js-orm");
+require("./functional-programming");
 
 router.get(
   "/v1/users",
