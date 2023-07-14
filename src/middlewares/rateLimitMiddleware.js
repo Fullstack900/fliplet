@@ -3,13 +3,11 @@ const RedisStore = require("express-brute-redis");
 const moment = require("moment");
 const Redis = require("ioredis");
 
-// Configure the Redis store for express-brute
 const store = new RedisStore({
-  host: "localhost", // Replace with your Redis server details
+  host: "localhost",
   port: 6379,
 });
 
-// Function to create and return the rate limiting middleware
 function createRateLimitMiddleware(namespace, freeRetries, minWait) {
   const failCallback = (req, res, next, nextValidRequestDate) => {
     const remainingTime = moment.duration(
@@ -23,24 +21,19 @@ function createRateLimitMiddleware(namespace, freeRetries, minWait) {
       );
   };
 
-  // Create the brute-force middleware for the given namespace
   const bruteforce = new ExpressBrute(store, {
     freeRetries,
-    minWait: minWait * 60 * 1000, // Convert minutes to milliseconds
+    minWait: minWait * 60 * 1000,
     failCallback,
     key(req) {
-      // Create a unique key for each request based on the namespace
       return `bruteforce:${namespace}:${req.ip}`;
     },
   });
 
-  // Function to clear data from Redis
   async function clearRedis() {
     try {
-      // Create a Redis client
       const redisClient = new Redis(store.redisOptions);
 
-      // Clear the Redis database
       await redisClient.flushdb();
 
       console.log("Data cleared from Redis");
@@ -52,7 +45,6 @@ function createRateLimitMiddleware(namespace, freeRetries, minWait) {
   // Call the clearRedis function to clear data from Redis
   //   clearRedis();
 
-  // Return the middleware function
   return function rateLimitMiddleware(req, res, next) {
     bruteforce.prevent(req, res, next);
   };
