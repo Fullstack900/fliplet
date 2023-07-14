@@ -1,6 +1,8 @@
-Q1 - Advanced use of Javascript
-
 Result:
+
+## Q1 - Advanced use of Javascript
+
+Hash: 1a3f4b2c
 
 [
 { id: 3, title: 'Dolor' },
@@ -10,15 +12,15 @@ Result:
 ]
 { name: 'Apple' }
 
-Q2 - Implement an Express.js middleware
+## Q2 - Implement an Express.js middleware
 
-Result:
+Hash: 5b8e2d7a
 
 Too many requests for the global namespace. Please retry in 1.9913333333333334 minutes.
 
-Q3 - Functional programming
+## Q3 - Functional programming
 
-Result:
+Hash: 7c9d6e4f
 
 The list is [
 'bootstrap',
@@ -33,9 +35,9 @@ The list is [
 'jquery-ui'
 ]
 
-Q4 - Library migration assessment plan
+## Q4 - Library migration assessment plan
 
-Result:
+Hash: 9e5f4d6b
 
 Research and Familiarization:
 Begin by thoroughly understanding the changes and improvements introduced in Sequelize V4 compared to V3. Study the documentation, release notes, and any migration guides provided by the Sequelize project.
@@ -95,9 +97,9 @@ Time spent on question: 45 minutes
 
 Q5 - Open-ended questions
 
-Q5.1
+## Q5.1
 
-Result:
+Hash: 2f1e3d4c
 
 Create a "www" Folder:
 Start by creating a folder for our Cordova project called "www" (short for web) or any other name you prefer. This folder will hold the app's static content files, such as HTML, CSS, JavaScript, and media files.
@@ -139,9 +141,9 @@ By following these steps, we can create a Cordova-powered hybrid mobile app that
 
 Time spent on question: 40 minutes
 
-Q5.2
+## Q5.2
 
-Result:
+Hash: 3b8a2c4d
 
 To implement asset resizing and compression on the backend while ensuring scalability and handling poor/weak connections, here's an approach we can follow:
 
@@ -191,9 +193,9 @@ By following these guidelines, we can build a scalable backend system that effic
 
 Time spent on question: 35 minutes
 
-Q5.3
+## Q5.3
 
-Result:
+Hash: 4c2d3e1f
 
 To automate the process of building and signing .ipa/.apk files for iOS and Android, we can follow the steps outlined below. This approach utilises popular tools and libraries to ensure scalability and reduce maintenance and development costs.
 
@@ -239,3 +241,5 @@ Notifications and Feedback:
 By following this approach, you can automate the process of building and signing .ipa/.apk files for iOS and Android, ensuring scalability and utilising popular tools and libraries that reduce maintenance and development costs.
 
 Time spent on question: 30 minutes
+
+Run npm i to install dependices and start project bu running npm tun dev
