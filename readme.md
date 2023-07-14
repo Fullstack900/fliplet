@@ -86,9 +86,9 @@ Implement monitoring and error tracking mechanisms such as log aggregation, perf
 
 Time spent on question: 45 minutes
 
-Q5 - Open-ended questions
+## Q5 - Open-ended questions
 
-## Q5.1
+**Q5.1**
 
 Create a "www" Folder:
 Start by creating a folder for our Cordova project called "www" (short for web) or any other name you prefer. This folder will hold the app's static content files, such as HTML, CSS, JavaScript, and media files.
@@ -130,7 +130,7 @@ By following these steps, we can create a Cordova-powered hybrid mobile app that
 
 Time spent on question: 40 minutes
 
-## Q5.2
+**Q5.2**
 
 To implement asset resizing and compression on the backend while ensuring scalability and handling poor/weak connections, here's an approach we can follow:
 
@@ -180,7 +180,7 @@ By following these guidelines, we can build a scalable backend system that effic
 
 Time spent on question: 35 minutes
 
-## Q5.3
+**Q5.3**
 
 To automate the process of building and signing .ipa/.apk files for iOS and Android, we can follow the steps outlined below. This approach utilises popular tools and libraries to ensure scalability and reduce maintenance and development costs.
 
@@ -227,4 +227,4 @@ By following this approach, you can automate the process of building and signing
 
 Time spent on question: 30 minutes
 
-## Run npm i to install dependices and start project by running npm run dev
+**Run npm i to install dependices and start project by running npm run dev**
