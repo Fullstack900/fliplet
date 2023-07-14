@@ -1,8 +1,5 @@
-Result:
 
 ## Q1 - Advanced use of Javascript
-
-Hash: 1a3f4b2c
 
 [
 { id: 3, title: 'Dolor' },
@@ -14,13 +11,9 @@ Hash: 1a3f4b2c
 
 ## Q2 - Implement an Express.js middleware
 
-Hash: 5b8e2d7a
-
 Too many requests for the global namespace. Please retry in 1.9913333333333334 minutes.
 
 ## Q3 - Functional programming
-
-Hash: 7c9d6e4f
 
 The list is [
 'bootstrap',
@@ -36,8 +29,6 @@ The list is [
 ]
 
 ## Q4 - Library migration assessment plan
-
-Hash: 9e5f4d6b
 
 Research and Familiarization:
 Begin by thoroughly understanding the changes and improvements introduced in Sequelize V4 compared to V3. Study the documentation, release notes, and any migration guides provided by the Sequelize project.
@@ -99,8 +90,6 @@ Q5 - Open-ended questions
 
 ## Q5.1
 
-Hash: 2f1e3d4c
-
 Create a "www" Folder:
 Start by creating a folder for our Cordova project called "www" (short for web) or any other name you prefer. This folder will hold the app's static content files, such as HTML, CSS, JavaScript, and media files.
 
@@ -142,8 +131,6 @@ By following these steps, we can create a Cordova-powered hybrid mobile app that
 Time spent on question: 40 minutes
 
 ## Q5.2
-
-Hash: 3b8a2c4d
 
 To implement asset resizing and compression on the backend while ensuring scalability and handling poor/weak connections, here's an approach we can follow:
 
@@ -195,8 +182,6 @@ Time spent on question: 35 minutes
 
 ## Q5.3
 
-Hash: 4c2d3e1f
-
 To automate the process of building and signing .ipa/.apk files for iOS and Android, we can follow the steps outlined below. This approach utilises popular tools and libraries to ensure scalability and reduce maintenance and development costs.
 
 Version Control:
@@ -242,4 +227,4 @@ By following this approach, you can automate the process of building and signing
 
 Time spent on question: 30 minutes
 
-Run npm i to install dependices and start project bu running npm tun dev
+## Run npm i to install dependices and start project by running npm run dev
